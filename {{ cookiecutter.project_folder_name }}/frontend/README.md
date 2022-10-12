@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You need Node.js installed to be able to build and run the code locally. For this, please visit the [official page](https://nodejs.org/en/download/package-manager/) and follow the instructions there. For example for Ubuntu, you can install (or update) Node.js from [command line](https://github.com/nodesource/distributions/blob/master/README.md#debinstall).
+
+1. **Initialise** Node.js for your project in running `npm install` from the `frontend` folder.
+1. **Run the app** locally with `npm start` (see below). For more available scripts, see next section.
+1. **Adjust the Kubernetes ports**: the cookiecutter added default ports for the Kubernetes apps, you'll need to change these to avoid conflicts with already existing apps.
 
 ## Available Scripts
 
